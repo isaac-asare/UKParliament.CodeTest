@@ -7,16 +7,16 @@ Please ensure you have the following installed:
 
 ## Introduction
 
-📌 Person Manager Application
-A simple Person Management System built with Angular and .NET 8 Web API, following Clean Architecture, SOLID principles, and WCAG 2.1 AA Accessibility Standards.
+📌 Person Manager Application:
+* A simple Person Management System built with Angular and .NET 8 Web API, following Clean Architecture, SOLID principles, and WCAG 2.1 AA Accessibility Standards.
 
 ##🚀 Features
-✔ List People – Displays all persons with their details
-✔ Add New Person – Allows users to add a new person
-✔ Edit Person – Modify existing person details
-✔ Delete Person – Remove a person from the list
-✔ WCAG 2.1 AA Compliance – Accessible UI for all users
-✔ RESTful API – Proper HTTP verbs and status codes
-✔ Bootstrap UI – Responsive and mobile-friendly design
-✔ Unit Tests – Coverage for critical services
+* ✔ List People – Displays all persons with their details
+* ✔ Add New Person – Allows users to add a new person
+* ✔ Edit Person – Modify existing person details
+* ✔ Delete Person – Remove a person from the list
+* ✔ WCAG 2.1 AA Compliance – Accessible UI for all users
+* ✔ RESTful API – Proper HTTP verbs and status codes
+* ✔ Bootstrap UI – Responsive and mobile-friendly design
+* ✔ Unit Tests – Coverage for critical services
 
