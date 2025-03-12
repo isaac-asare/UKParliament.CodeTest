@@ -1,0 +1,18 @@
+
+
+<!-- Jumbotron with Add Button -->
+<div class="bg-light p-4 rounded">
+  <h2>Person Manager</h2>
+  <p class="text-muted">Manage people records with ease. You can add, update, or delete a person.</p>
+  <button class="btn btn-success" (click)="addNewPerson()">+ Add New Person</button>
+</div>
+
+<!-- Person List and Editor -->
+<div class="person-manager mt-4">
+  <app-people-list (personSelected)="onPersonSelected($event)" #peopleList></app-people-list>
+
+  <!-- Only show the editor when a person is selected -->
+  <app-person-editor *ngIf="selectedPerson" [person]="selectedPerson" (personSaved)="peopleList.refreshList()">
+  </app-person-editor>
+</div>
+
